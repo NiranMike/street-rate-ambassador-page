@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 export const NavbarContainer = styled.nav`
   background-color: #f8fafc;
   height: ${({dropdown})=> (dropdown ? "100vh" : "80px")};
-
+  margin-bottom: 30px;
   @media (min-width: 834px) {
     background-color: #fff;
   }
@@ -41,6 +41,11 @@ export const NavbarInnerContainer = styled.div`
   @media (min-width: 760px) {
     margin-left: 50px;
     margin-right: 50px;
+  }
+
+  @media (min-width: 1024px) {
+    margin-left: 90px;
+    margin-right: 90px;
   }
 `;
 
