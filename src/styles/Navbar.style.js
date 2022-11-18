@@ -37,6 +37,11 @@ export const NavbarInnerContainer = styled.div`
     margin-left: 16px;
     margin-right: 16px;
   }
+
+  @media (min-width: 760px) {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 `;
 
 export const HamburgerMenu = styled.div`

@@ -9,3 +9,38 @@ body{
 .arrow{
   width: 10px;
 }
+
+.myImage{
+  width: 83.3vw;
+}
+@media (min-width: 375px){
+  
+  .myImage{
+    width: 86.34vw;
+  }
+}
+
+@media (min-width: 425px){
+  
+  .myImage{
+    width: 87.5vw;
+    height: 424px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 767px){
+
+  .myImage{
+    width: 47.5vw;
+    height: 304px;
+    object-fit: cover;
+  }
+
+}
+
+@media(min-width: 768px){
+  .meet--ambassador{
+    width: 400px;
+  }
+}

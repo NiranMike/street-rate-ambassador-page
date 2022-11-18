@@ -23,7 +23,7 @@ const Navbar = () => {
     setMenu(!menu);
   };
   return (
-    <NavbarContainer dropdown={menu}>
+    <NavbarContainer data-testid='nav-1' dropdown={menu}>
       <NavbarInnerContainer>
         <LeftContainer>
           <Logo>Street Rate</Logo>
